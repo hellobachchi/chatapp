@@ -1,7 +1,7 @@
 <?php
-
-include 'php/process.php';
 session_start();
+include 'php/process.php';
+
 $from = $_SESSION['id'];
 $to = $_SESSION['to'];
 $lastid =$_POST['lastmessageid'];
