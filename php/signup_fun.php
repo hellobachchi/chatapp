@@ -1,7 +1,7 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "db 10", "3306");
-
+include 'process.php';
+connect_database();
 
 $username = $_POST["username"];
 $mobile = $_POST["mobile"];
