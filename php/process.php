@@ -1,19 +1,19 @@
 <?php
 function connect_database()
 {
-    // $server_name = "localhost";
-    // $username = "root";
-    // $password = "";
-    // $database = "chat_app";
-    // $port = "3306";
+    $server_name = "eu-cdbr-west-02.cleardb.net";
+    $username = "b7c54dcfe526a4";
+    $password = "6940843c";
+    $database = "heroku_1c8c80c572a6615";
+    $port = "3306";
     // $socket = "";
     // $conn = new mysqli($server_name, $username, $password, $database, $port);
     global $conn;
-    $server_name = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "chat_app";
-    $port = "3306";
+    //$server_name = "localhost";
+    //$username = "root";
+    //$password = "";
+    //$database = "chat_app";
+    //$port = "3306";
     $conn = new mysqli($server_name, $username, $password, $database, $port);
 
     
