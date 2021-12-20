@@ -1,8 +1,7 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "root", "", "chat_app", "3306");
-
-
+include 'process.php';
+connect_database();
 $username = $_POST['username'];
 $password = $_POST['password'];
 
